@@ -13,3 +13,8 @@ app.include_router(auth.router, prefix="/auth", tags=["Authentication"])
 @app.get("/")
 def root():
     return {"message": "Learnify++ API is running 🚀"}
+
+from app.routes import auth, qa
+
+app.include_router(qa.router, prefix="/qa", tags=["Q&A"])
+

@@ -12,3 +12,6 @@ class User(Base):
     branch = Column(String)
     sem = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
+    subin = Column(String)   # subjects you're good at
+    subnin = Column(String)  # subjects you struggle with
+

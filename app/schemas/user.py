@@ -14,6 +14,9 @@ class UserOut(BaseModel):
     gpa: Optional[float]
     branch: Optional[str]
     sem: Optional[str]
+    subin: Optional[str] = None
+    subnin: Optional[str] = None
+
 
     class Config:
         orm_mode = True
