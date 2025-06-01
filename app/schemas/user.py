@@ -7,6 +7,8 @@ class UserCreate(BaseModel):
     gpa: Optional[float] = None
     branch: Optional[str] = None
     sem: Optional[str] = None
+    subin: Optional[str] = None
+    subnin: Optional[str] = None
 
 class UserOut(BaseModel):
     id: int

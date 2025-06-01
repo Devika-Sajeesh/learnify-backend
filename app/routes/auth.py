@@ -25,7 +25,9 @@ def register(user: UserCreate, db: Session = Depends(get_db)):
         password_hash=hashed_pw,
         gpa=user.gpa,
         branch=user.branch,
-        sem=user.sem
+        sem=user.sem,
+        subin=user.subin,
+        subnin=user.subnin
     )
     db.add(new_user)
     db.commit()
