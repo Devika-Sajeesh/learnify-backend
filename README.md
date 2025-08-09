@@ -75,8 +75,5 @@ Use strong SECRET_KEY for JWT authentication.
 
 Rotate API keys regularly.
 
-📜 License
-This project is licensed under the MIT License.
-
 👩‍💻 Author
 Devika Sajeesh
