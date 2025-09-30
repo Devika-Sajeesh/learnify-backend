@@ -27,7 +27,7 @@ groq==0.16.0
 sentence-transformers==2.2.2   # older, wheels available for Python 3.11
 faiss-cpu==1.12.0               # prebuilt wheels for Python 3.11
 scikit-learn==1.7.2            # safe for Python 3.11
-numpy==1.25                    
+numpy                 
 
 # ✅ Utilities
 requests==2.32.3
