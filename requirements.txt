@@ -29,6 +29,9 @@ huggingface_hub==0.16.4
 faiss-cpu==1.12.0               # prebuilt wheels for Python 3.11
 scikit-learn==1.7.2            # safe for Python 3.11
 numpy==2.3.3
+
+chromadb==0.3.24
+
 # ✅ Utilities
 requests==2.32.3
 httpx==0.28.1
