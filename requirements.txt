@@ -1,8 +1,7 @@
-# Build tools
+# 🔧 Build tools (must be first!)
 pip>=23.2.1
 setuptools>=68.0.0
 wheel>=0.40.0
-Cython>=0.30
 
 # ✅ Core server
 fastapi==0.115.9
@@ -15,7 +14,7 @@ python-jose==3.4.0
 bcrypt==4.3.0
 python-multipart==0.0.20
 
-# ✅ DB
+# ✅ Database
 SQLAlchemy==2.0.41
 psycopg2-binary==2.9.10
 alembic==1.16.1
