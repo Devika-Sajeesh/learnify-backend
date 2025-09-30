@@ -1,6 +1,7 @@
+# Build tools
 setuptools>=68.0.0
 wheel>=0.40.0
-
+Cython>=0.30
 
 # ✅ Core server
 fastapi==0.115.9
@@ -22,11 +23,11 @@ alembic==1.16.1
 openai==1.61.0
 groq==0.16.0
 
-# ✅ Vector search (UPDATED VERSIONS)
+# ✅ Vector search
 sentence-transformers==4.1.0
 faiss-cpu==1.11.0
 scikit-learn==1.7.2
-numpy==1.25  # Downgraded to be compatible with faiss-cpu
+numpy==1.25
 
 # ✅ Utilities
 requests==2.32.3
