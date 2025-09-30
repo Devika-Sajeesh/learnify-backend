@@ -1,9 +1,7 @@
 # 🔧 Build tools (must be first!)
-# 🔧 Build tools
 pip>=23.2.1
-setuptools>=80.9.0
-wheel>=0.45.1
-
+setuptools>=68.0.0
+wheel>=0.40.0
 
 # ✅ Core server
 fastapi==0.115.9
@@ -26,10 +24,10 @@ openai==1.61.0
 groq==0.16.0
 
 # ✅ Vector search
-sentence-transformers==2.2.2      # compatible with Python 3.11
-faiss-cpu==1.10.0                  # stable for Python 3.11
-scikit-learn==1.2.2                # avoids build issues
-numpy==1.24.4                      # avoids setuptools/pkg_resources errors
+sentence-transformers==2.2.2   # older, wheels available for Python 3.11
+faiss-cpu==1.7.4               # prebuilt wheels for Python 3.11
+scikit-learn==1.7.2            # safe for Python 3.11
+numpy==1.25                    
 
 # ✅ Utilities
 requests==2.32.3
@@ -41,5 +39,5 @@ python-dateutil==2.9.0.post0
 tqdm==4.67.1
 
 # ✅ Optional
-starlette==0.27.2                  # latest compatible
+starlette==0.45.3
 Jinja2==3.1.5
