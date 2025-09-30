@@ -1,7 +1,9 @@
 # 🔧 Build tools (must be first!)
+# 🔧 Build tools
 pip>=23.2.1
-setuptools>=80.10.0
+setuptools>=80.9.0
 wheel>=0.45.1
+
 
 # ✅ Core server
 fastapi==0.115.9
